@@ -28,14 +28,23 @@ h1,h2,h3,h4{
 }
 
 h1{
-	font-size: 50px;
-	text-shadow:2px 1px #1d1d1d;
+	font-size: 40px;
+  padding:20px;
+  color: #1c7a9d;
+}
+
+.IndexH1{
+  font-size: 50px;
+  padding: 0px;
+  text-align:left;
+  color: white;
 }
 
 h3{
     font-size: 35px;
     margin:0px;
     padding: 0px;
+    color: #1c7a9d;
 }
 
 h4{
@@ -165,7 +174,7 @@ header {
 		grid-template-columns:100%;
 
     }
-    .inner, h1{
+    .inner, .IndexH1{
         font-size: 35px;
         margin-bottom: -7px;
 
@@ -182,7 +191,7 @@ header {
 		grid-template-columns:100%;
 
     }
-    .inner, h1{
+    .inner, .IndexH1{
         font-size: 18px;
         
 
@@ -221,7 +230,6 @@ header {
 .Container{
     grid-column-start: 1fr;
     float: right;
-    background-color: blue;
     max-width:300px;
     grid-column-start: 2;
     border-radius: 10px;
