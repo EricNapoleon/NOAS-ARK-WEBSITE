@@ -38,7 +38,7 @@ h1{
   font-size: 50px;
   padding: 0px;
   text-align:left;
-  color: white;
+  color: whitesmoke;
 }
 
 h3{
@@ -95,9 +95,19 @@ header {
 
 .main-menu-list a{
 	text-decoration: none;
-	color:#fff;
-	padding: 10px 15px; 
-}
+  padding: 5px; 
+    background-color: #1c7a9d; 
+    border:#0f4357 solid 1px;
+    color: whitesmoke;
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
 
 .main-menu-list li a:hover{
 	color: #000;
