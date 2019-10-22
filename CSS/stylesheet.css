@@ -28,6 +28,7 @@ h1,h2,h3,h4{
 }
 
 h1{
+  text-align: center;
 	font-size: 40px;
   padding:20px;
   color: #1c7a9d;
@@ -130,7 +131,6 @@ header {
  	overflow: hidden;
  }
 
-/*-hero */
 .hero {
 	width: 100%;
 	height: auto;
@@ -147,7 +147,6 @@ header {
 	color: #fff;
 }
 
-/*boxes*/
 .boxes{
 	display:grid; 
 	grid-template-columns:repeat(3,1fr);
@@ -282,11 +281,11 @@ input[type=text], select, textarea {
 
 /*--------------------------------------- Content ---------------------------------------*/
 
+
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr ;
     width: 92%;
-   
     margin: 0 auto;
     max-width:1200px;
     grid-auto-rows: minmax(100px, auto);
@@ -339,27 +338,6 @@ input[type=text], select, textarea {
 
 
 /*--------------------------------------- About us ---------------------------------------*/
-
-/*
-.allinfo{
-   display: grid;
-    font-family: arial;
-    overflow: hidden;
-    justify-content: center;
-    padding: 10px;
-    display: block;
-    grid-column-start:3fr;
-    grid-row-start: 2;
-    grid-gap: 20px;
-    margin: 0 auto; 
-    max-width: 1200px;
-    
- }*/
-
-h1
-{
-    text-align: center;
-}
 
 .About-Us{
   display: grid;
