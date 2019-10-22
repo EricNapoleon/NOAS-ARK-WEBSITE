@@ -160,11 +160,19 @@ header {
 	text-align: center;
 }
 
+.boxes .box:hover {
+    transform: scale(1.06);
+    transition-timing-function: ease-in-out;
+    transition: 0.8s;
+    
+}
+
 
 
 .boxes .box a{
 	text-decoration: none;
-	color: #000;
+  color: #000;
+  
 }
 
 @media all and (max-width: 768px) {
