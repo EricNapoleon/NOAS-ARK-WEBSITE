@@ -301,11 +301,11 @@ input[type=text], select, textarea {
 
   }
  
-  .inehåll article:hover {
+  .Content-dogs article:hover {
     transform: scale(1.06);
     
     }
-  .inehåll { 
+  .Content-dogs { 
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
@@ -314,7 +314,7 @@ input[type=text], select, textarea {
     max-width:1200px;
   }
 
-  .inehåll article{
+  .Content-dogs article{
     border:1px whitesmoke;
     padding: 35px; 
     font-size: 20px;
@@ -325,7 +325,7 @@ input[type=text], select, textarea {
   }
 
 @media only screen and (max-width: 850px) {
-  .inehåll {  
+  .Content-dogs {  
     display:grid;
     grid-template-columns: 1fr;
     grid-gap: 20px;
