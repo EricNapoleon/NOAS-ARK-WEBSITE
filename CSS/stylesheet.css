@@ -52,7 +52,8 @@ h4{
     font-size: 25px;
     margin:0px;
     padding: 0px;
-}
+	 
+  }
 h5{
     font-size: 17px;
     margin: 0px;
@@ -316,6 +317,10 @@ input[type=text], select, textarea {
     text-align: center;
     font-size:25px;
 
+  }
+   .Content-dogs p{
+    line-height: 1.5em;
+    font-size: 20px;
   }
  
   .Content-dogs article:hover {
