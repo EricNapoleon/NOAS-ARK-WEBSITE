@@ -98,7 +98,7 @@ header {
 	text-decoration: none;
   padding: 5px; 
     background-color: #1c7a9d; 
-    border:#0f4357 solid 1px;
+    
     color: whitesmoke;
     width: 100px;
     margin: 5px;
@@ -131,6 +131,11 @@ header {
 	color:#fff;
 }
 
+@media all and (max-width: 1050px) {
+.main-menu-list a{
+  border:#0f4357 solid 1px;
+  }
+}
 
 /*--------------------------------------- ALL PAGES ---------------------------------------*/
 
